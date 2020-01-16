@@ -1,0 +1,12 @@
+{
+    "description": "",
+    "environments": [],
+    "groups": [],
+    "max-retries": 0,
+    "name": "Sample",
+    "resource-technologies": [],
+    "script-filename": "cb_plugin_1575485219128349_4Ev52z8.py",
+    "shared": "True",
+    "target-os-families": [],
+    "type": "CloudBolt Plug-in"
+}

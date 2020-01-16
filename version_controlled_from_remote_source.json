@@ -1,0 +1,131 @@
+{
+    "any-group-can-deploy": false,
+    "auto-historical-resources": false,
+    "build-items": [
+        {
+            "all-environments-enabled": true,
+            "deploy-seq": 1,
+            "description": "This step will spin-up a test environment with a server of your choice...",
+            "enabled-environments": [
+                {
+                    "environment": {
+                        "href": "/api/v2/environments/ENV-77hd7f4y/",
+                        "title": "Botha QA vC Cloud"
+                    },
+                    "predefined-parameters": [
+                        {
+                            "available-all-servers": false,
+                            "description": null,
+                            "field-dependency-controlling-set": [],
+                            "field-dependency-dependent-set": [],
+                            "global-options": [],
+                            "label": "VMware Disk Provisioning Type",
+                            "name": "vmware_disk_type",
+                            "parameter-type": "CustomField",
+                            "relevant-osfamilies": [],
+                            "required": true,
+                            "show-as-attribute": false,
+                            "show-on-servers": false,
+                            "type": "STR",
+                            "value": "Thin Provision"
+                        },
+                        {
+                            "available-all-servers": false,
+                            "description": null,
+                            "field-dependency-controlling-set": [],
+                            "field-dependency-dependent-set": [],
+                            "global-options": [],
+                            "label": "VMware Datastore",
+                            "name": "vmware_datastore",
+                            "parameter-type": "CustomField",
+                            "relevant-osfamilies": [],
+                            "required": true,
+                            "show-as-attribute": false,
+                            "show-on-servers": false,
+                            "type": "STOR",
+                            "value": 1
+                        }
+                    ]
+                },
+                {
+                    "environment": {
+                        "href": "/api/v2/environments/ENV-rrj9v6xh/",
+                        "title": "DevOps AWS West"
+                    },
+                    "predefined-parameters": []
+                }
+            ],
+            "execute-in-parallel": false,
+            "hostname-template": "",
+            "id": "128",
+            "name": "Spin-Up Test Environment",
+            "restrict-applications": false,
+            "show-on-order-form": true,
+            "type": "provserver"
+        },
+        {
+            "action-name": "Sample",
+            "continue-on-failure": false,
+            "deploy-seq": 2,
+            "description": "In addition to the product\u2019s out-of-the-box alerts, when writing custom code for CloudBolt, such as an action or Recurring Job, you can also send your own custom alerts.",
+            "enabled-environments": [],
+            "execute-in-parallel": false,
+            "id": "131",
+            "name": "Sending Custom Alerts",
+            "run-on-scale-up": true,
+            "show-on-order-form": true,
+            "type": "plugin"
+        }
+    ],
+    "description": "Advocates for DevOps benefits by determining key value that IT can provide to the business.\r\n\r\nStarting in 8.7, CloudBolt offers the ability to have Blueprints populated from a definition stored in a remote source location, such as github, gitlab, or a filesystem.",
+    "favorited": true,
+    "global-id": "BP-rfj74wxm",
+    "groups-that-can-deploy": [
+        {
+            "href": "/api/v2/groups/GRP-64gykn3m/",
+            "title": "Cloud Automation Squad"
+        },
+        {
+            "href": "/api/v2/groups/GRP-3elm95pn/",
+            "title": "DevOps-8.3-Paige"
+        },
+        {
+            "href": "/api/v2/groups/GRP-r4vveobd/",
+            "title": "DevOps-8.4-Tallman"
+        },
+        {
+            "href": "/api/v2/groups/GRP-tvuazyqa/",
+            "title": "DevOps-8.5-Botha"
+        },
+        {
+            "href": "/api/v2/groups/GRP-11ob9b8m/",
+            "title": "GSS"
+        }
+    ],
+    "groups-that-can-manage": [
+        {
+            "href": "/api/v2/groups/GRP-64gykn3m/",
+            "title": "Cloud Automation Squad"
+        },
+        {
+            "href": "/api/v2/groups/GRP-11ob9b8m/",
+            "title": "GSS"
+        }
+    ],
+    "icon": "logo_Vy9L4TI.png",
+    "id": "64",
+    "is-orderable": true,
+    "management-actions": [],
+    "name": "Version Controlled from Remote Source",
+    "resource-type": {
+        "icon": "fas fa-concierge-bell",
+        "label": "Service",
+        "lifecycle": "ACTIVE",
+        "list-view-columns": [],
+        "name": "service",
+        "plural-label": null
+    },
+    "sequence": 0,
+    "show-recipient-field-on-order-form": false,
+    "teardown-items": []
+}

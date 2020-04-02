@@ -86,6 +86,14 @@
             "title": "Cloud Automation Squad"
         },
         {
+            "href": "/api/v2/groups/GRP-a855ucav/",
+            "title": "Cloud Automation"
+        },
+        {
+            "href": "/api/v2/groups/GRP-z8pnkaqd/",
+            "title": "DevOps"
+        },
+        {
             "href": "/api/v2/groups/GRP-3elm95pn/",
             "title": "DevOps-8.3-Paige"
         },
@@ -96,20 +104,17 @@
         {
             "href": "/api/v2/groups/GRP-tvuazyqa/",
             "title": "DevOps-8.5-Botha"
-        },
-        {
-            "href": "/api/v2/groups/GRP-11ob9b8m/",
-            "title": "GSS"
         }
     ],
     "groups-that-can-manage": [
+        
+        {
+            "href": "/api/v2/groups/GRP-a855ucav/",
+            "title": "Cloud Automation"
+        },
         {
             "href": "/api/v2/groups/GRP-64gykn3m/",
             "title": "Cloud Automation Squad"
-        },
-        {
-            "href": "/api/v2/groups/GRP-11ob9b8m/",
-            "title": "GSS"
         }
     ],
     "icon": "logo_Vy9L4TI.png",

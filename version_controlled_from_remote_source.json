@@ -5,7 +5,7 @@
         {
             "all-environments-enabled": true,
             "deploy-seq": 1,
-            "description": "This step will spin-up a test environment with a server of your choice....",
+            "description": "This step will spin-up a test environment with a server of your choice........",
             "enabled-environments": [
                 {
                     "environment": {
